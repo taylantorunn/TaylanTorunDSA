@@ -1,33 +1,12 @@
-# Flight Delay Prediction Project
+# Flight Delay Prediction Using Machine Learning
 
-## Overview
-This project aims to analyze airline flight data and build a machine learning model to predict whether a flight will be delayed.
+This project focuses on analyzing airline flight data and building a machine learning model to predict whether a flight will be delayed. Flight delays are a common issue in air transportation, affecting both airline operations and passenger experience. The goal of this project is to identify key factors that contribute to delays and to develop a predictive model based on these factors.
 
-## Dataset
-The dataset used in this project is the "PIA 2026 Smart Flight Dataset". It includes information such as:
-- Flight schedules
-- Route details
-- Weather conditions
-- Passenger load
-- Delay status
+The dataset used in this project is the “2015 Flight Delays and Cancellations” dataset provided by the U.S. Department of Transportation (DOT). It includes detailed information about domestic flights such as departure and arrival times, delay durations, airline companies, origin and destination airports, and flight distances.
 
-## Objectives
-- Understand the factors affecting flight delays
-- Perform exploratory data analysis (EDA)
-- Build a machine learning model to predict delays
+The project follows a standard data science workflow. First, the data will be cleaned and preprocessed. Then, exploratory data analysis (EDA) will be conducted to uncover patterns and relationships between variables. After that, feature engineering techniques will be applied to improve the dataset. Finally, a classification model will be built to predict whether a flight will be delayed, starting with Logistic Regression as a baseline.
 
-## Methods
-- Data Cleaning and Preprocessing
-- Exploratory Data Analysis (EDA)
-- Feature Engineering
-- Logistic Regression (baseline model)
-
-## Expected Outcome
-The project aims to identify key drivers of flight delays and build a predictive model that can estimate delay probability.
-
-## Repository Structure
-- `proposal.md`: Project proposal
-- (future) notebooks and code files will be added
+The expected outcome of this project is to gain insights into the main causes of flight delays and to build a model that can estimate the likelihood of delay. This can help better understand airline performance and delay behavior.
 
 ## Author
 Taylan Torun
