@@ -8,5 +8,13 @@ The project follows a standard data science workflow. First, the data will be cl
 
 The expected outcome of this project is to gain insights into the main causes of flight delays and to build a model that can estimate the likelihood of delay. This can help better understand airline performance and delay behavior.
 
+Dataset:
+https://www.kaggle.com/datasets/usdot/flight-delays
+
+Instructions:
+1. Download dataset as zip
+2. Extract flights.csv
+3. Upload to project folder or Colab
+   
 ## Author
 Taylan Torun
